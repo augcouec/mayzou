@@ -1,0 +1,27 @@
+@import '_reset.scss';
+@import '_variables.scss';
+@import '_mixins.scss';
+body {
+  cursor: url('assets/sunset.svg') 24 12, auto;
+}
+
+h1 {
+  font-size: 13rem;
+  line-height: 1;
+  font-weight: 400;
+  font-family: $font-heading;
+  color: #fff;
+  @media (max-width: 900px) {
+    font-size: 5rem;
+    text-align: center;
+  }
+}
+
+h2 {
+  font-family: $font-heading;
+}
+
+p {
+  font-family: $font-text;
+  line-height: 1.3em;
+}

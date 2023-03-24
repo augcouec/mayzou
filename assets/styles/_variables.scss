@@ -1,0 +1,16 @@
+/* BREAKPOINTS */
+$mobile: 767px;
+$tablet: 991px;
+$desktop: $tablet + 1px;
+
+/* Colors */
+
+/* Fonts */
+
+@font-face {
+  font-family: 'Unicorn';
+  src: local('Unicorn'), url(~/assets/UNICORN_REGULAR.ttf) format('truetype');
+}
+
+$font-heading: 'Unicorn';
+$font-text: 'Raleway', sans-serif;
